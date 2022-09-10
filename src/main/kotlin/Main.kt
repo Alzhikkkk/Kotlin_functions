@@ -1,5 +1,7 @@
 fun main(args: Array<String>) {
-    swim()
+    swim()   // uses default speed
+    swim("slow")   // positional argument
+    swim(speed="turtle-like")   // named parameter
 }
 
 fun swim(speed: String = "fast") {
