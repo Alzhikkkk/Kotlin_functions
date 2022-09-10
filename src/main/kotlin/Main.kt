@@ -1,10 +1,11 @@
 import java.util.*;
-val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
-
-
 
 fun main() {
-    println( decorations.filter {it[0] == 'p'})
+    val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+
+    // eager, creates a new list
+    val eager = decorations.filter { it [0] == 'p' }
+    println("eager: $eager")
 }
 
 
