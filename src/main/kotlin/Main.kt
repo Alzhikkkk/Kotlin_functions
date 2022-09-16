@@ -1,4 +1,6 @@
 import example.myapp.Aquarium
+import example.myapp.Plecostomus
+import example.myapp.Shark
 import java.util.*;
 
 fun buildAquarium() {
@@ -8,8 +10,15 @@ fun buildAquarium() {
     myTower.printSize()
 }
 
+fun makeFish() {
+    val shark = Shark()
+    val pleco = Plecostomus()
+
+    println("Shark: ${shark.color}")
+    println("Plecostomus: ${pleco.color}")
+}
 fun main() {
-    buildAquarium()
+    makeFish()
 }
 
 
