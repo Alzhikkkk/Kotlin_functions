@@ -1,3 +1,4 @@
+import decor.Decoration
 import example.myapp.Aquarium
 import example.myapp.Plecostomus
 import example.myapp.Shark
@@ -18,8 +19,10 @@ fun makeFish() {
     println("Plecostomus: ${pleco.color}")
     pleco.eat()
 }
+
+
 fun main() {
-    makeFish()
+    decor.makeDecorations()
 }
 
 
