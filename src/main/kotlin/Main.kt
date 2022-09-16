@@ -1,4 +1,4 @@
-import decor.Decoration
+import decor.Decoration2
 import example.myapp.Aquarium
 import example.myapp.Plecostomus
 import example.myapp.Shark
