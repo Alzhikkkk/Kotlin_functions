@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="681e1e98-3419-48ec-9591-4f746c144c49" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/decor/Decoration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/decor/Decoration.kt" afterDir="false" />
-    </list>
+    <list default="true" id="681e1e98-3419-48ec-9591-4f746c144c49" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +41,14 @@
     &quot;last_opened_file_path&quot;: &quot;/home/dastan/Desktop/Projects/Hello&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.DecorationKt">
+    <configuration name="DecorationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decor.DecorationKt" />
+      <module name="Hello" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="Hello" />
@@ -53,6 +58,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DecorationKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
